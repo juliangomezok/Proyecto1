@@ -1,0 +1,117 @@
+body{
+    color: rgb(94, 93, 93);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-image:url(../imgs/patron-de-fondo.jpg);
+    background-attachment: fixed;
+
+}
+
+img{
+    display: block;
+    margin:auto;
+   
+}
+.header__div1{
+    width: 100%;
+    background-color: white
+
+}
+
+.header__div2 {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-top-width: 0.5px;
+ border-top-style: solid;
+ border-top-color: whitesmoke;
+
+}
+
+.header__div2 a {
+ font-size: 15pt;
+ text-decoration: none;
+ color: rgb(250, 248, 248);
+ padding: 10px 20px;
+
+}
+
+.header__div2 a:hover {
+ font-weight: bold;
+
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    
+
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    background-color:black;
+margin: 19px 28% 19px 28%;
+color: rgb(240, 238, 238);
+
+ }
+h2,h3{
+    text-align: center;
+    background-color:black;
+    margin: 19px 28% 19px 28%;
+    color: rgb(240, 238, 238);
+    
+}
+    
+p strong{
+    color: black;
+
+}
+
+ul{
+    list-style:none;
+    display: flex;
+    margin: 10 px 20% 10px 20%;
+    padding: 20px;
+}
+ul li p{
+    margin: 10 px 20% 10px 20%;
+    padding: 20px;
+}
+
+.enlace-azul {
+    color: rgb(5, 92, 253);
+    font-size: 15pt;
+font-style: oblique;
+
+}
+.enlace-azul{
+    display: flexbox;
+  
+    }
+
+footer {
+    
+    background-color: rgb(7, 0, 0);
+    color: rgb(249, 249, 252);
+
+}
+
+footer a {
+    color: rgb(249, 249, 252);
+    display: flexbox;
+
+}
+
+footer a{
+    font-size: 15pt;
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    padding: 5px 10px;
+
+}
+footer a:hover{
+    font-weight: bold;
+}
+    
